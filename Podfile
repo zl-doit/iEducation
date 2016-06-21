@@ -10,6 +10,7 @@ target 'Teacher' do
   platform :ios, '7.0'
   project 'Teacher/Teacher.xcodeproj'
   pod 'AFNetworking', "~> 3.0"
+  pod 'CocoaHTTPServer'
   #pod 'ProtoBuffer'
 end
 
@@ -29,4 +30,5 @@ target 'CommonFoundation' do
   pod 'CocoaLumberjack', "~> 2.0.0"
   pod 'ProtocolBuffers', "~> 1.9.9.2"
   pod 'CocoaAsyncSocket'
+  pod 'DTFoundation'
 end

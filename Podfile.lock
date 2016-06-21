@@ -21,6 +21,9 @@ PODS:
     - CocoaAsyncSocket/RunLoop
   - CocoaAsyncSocket/GCD (7.4.3)
   - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
   - CocoaLumberjack (2.0.3):
     - CocoaLumberjack/Default (= 2.0.3)
     - CocoaLumberjack/Extensions (= 2.0.3)
@@ -29,6 +32,58 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.0.3):
     - CocoaLumberjack/Default
+  - DTFoundation (1.7.10):
+    - DTFoundation/AppKit (= 1.7.10)
+    - DTFoundation/Core (= 1.7.10)
+    - DTFoundation/Debug (= 1.7.10)
+    - DTFoundation/DTAnimatedGIF (= 1.7.10)
+    - DTFoundation/DTASN1 (= 1.7.10)
+    - DTFoundation/DTAsyncFileDeleter (= 1.7.10)
+    - DTFoundation/DTAWS (= 1.7.10)
+    - DTFoundation/DTHTMLParser (= 1.7.10)
+    - DTFoundation/DTProgressHUD (= 1.7.10)
+    - DTFoundation/DTReachability (= 1.7.10)
+    - DTFoundation/DTScripting (= 1.7.10)
+    - DTFoundation/DTSidePanel (= 1.7.10)
+    - DTFoundation/DTSQLite (= 1.7.10)
+    - DTFoundation/DTUTI (= 1.7.10)
+    - DTFoundation/DTZipArchive (= 1.7.10)
+    - DTFoundation/Runtime (= 1.7.10)
+    - DTFoundation/UIKit (= 1.7.10)
+    - DTFoundation/UIKit_BlocksAdditions (= 1.7.10)
+  - DTFoundation/Core (1.7.10)
+  - DTFoundation/Debug (1.7.10):
+    - DTFoundation/Core
+    - DTFoundation/Runtime
+  - DTFoundation/DTAnimatedGIF (1.7.10)
+  - DTFoundation/DTASN1 (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTAsyncFileDeleter (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTAWS (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTHTMLParser (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTProgressHUD (1.7.10):
+    - DTFoundation/Core
+    - DTFoundation/UIKit
+  - DTFoundation/DTReachability (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTScripting (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTSidePanel (1.7.10):
+    - DTFoundation/UIKit
+  - DTFoundation/DTSQLite (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/DTUTI (1.7.10)
+  - DTFoundation/DTZipArchive (1.7.10):
+    - DTFoundation/DTZipArchive/Minizip (= 1.7.10)
+  - DTFoundation/DTZipArchive/Minizip (1.7.10)
+  - DTFoundation/Runtime (1.7.10)
+  - DTFoundation/UIKit (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/UIKit_BlocksAdditions (1.7.10):
+    - DTFoundation/Core
   - FCModel (0.9.0):
     - FMDB (~> 2.1)
   - FMDB (2.6.2):
@@ -41,7 +96,9 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - CocoaAsyncSocket
+  - CocoaHTTPServer
   - CocoaLumberjack (~> 2.0.0)
+  - DTFoundation
   - FCModel (~> 0.9.0)
   - HTMLReader
   - ProtocolBuffers (~> 1.9.9.2)
@@ -50,13 +107,15 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
   CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  DTFoundation: 3b6b1b817d2a7fb02e7eaf2596c922a68145bd43
   FCModel: 04bb289914e67f2275cb17fda869131a3529c1a5
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   HTMLReader: 7e21488ee378afc56ccade8af35840c4e03e434c
   ProtocolBuffers: 7111461618460961e6b7469177ec45ee551b4f0e
   RNCryptor: 761fc3ed94d1a0e409ba5b8e5dbef6a8f69352a7
 
-PODFILE CHECKSUM: c0926a9f937fdc2e945c0e6ed5bcb04b35befc02
+PODFILE CHECKSUM: a008f517719e45ffb55f399613ed8a99a7cc6001
 
 COCOAPODS: 1.0.0
