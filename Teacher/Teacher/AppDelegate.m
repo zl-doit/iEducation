@@ -8,8 +8,15 @@
 
 #import "AppDelegate.h"
 
-#import "DataFoundation/DataFoundation.h"
-#import "CommonFoundation/CommonFoundation.h"
+//#import "ZLFramework/Test.h"
+//#import "ZLFramework/Test.h"
+#import "CommonKit.h"
+#import "RequestModel.h"
+#import <DataKit/ResponseModel.h>
+#import "DataKit.h"
+#import "AFHTTPSessionManager.h"
+#import "RootViewController.h"
+#import "TeacherHttpManager.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +26,61 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self initGlobStyle];
+    [self enter];
+    
     return YES;
 }
+
+-(void)initGlobStyle
+{
+    //    [[UINavigationBar appearance] setTintColor:NAV_BAR_BG_COLOR];
+    //    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+    //
+    //    [[UINavigationBar appearance] setTranslucent:NO];
+    
+    //设置NavigationBar背景颜色
+    [[UINavigationBar appearance] setBarTintColor:NAV_BAR_BG_COLOR];
+    [[UINavigationBar appearance] setTintColor:NAV_BAR_BG_COLOR];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    //    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:[self colorFromHexRGB:@"33cccc"]]
+    //                       forBarPosition:UIBarPositionAny
+    //                           barMetrics:UIBarMetricsDefault];
+    //    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    //      [[UINavigationBar appearance] setBarTintColor:NAV_BAR_BG_COLOR];
+    //    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor],NSFontAttributeName : [UIFont boldSystemFontOfSize:18]}];//NSFontAttributeName
+    
+    //自定义返回按钮
+    UIImage *backButtonImage = [[UIImage imageNamed:@"sys-back"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 24, 0, 0)];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    //将返回按钮的文字position设置不在屏幕上显示
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(NSIntegerMin, NSIntegerMin) forBarMetrics:UIBarMetricsDefault];
+    
+    //设置item普通状态
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    attrs[NSFontAttributeName] = [UIFont systemFontOfSize:15];
+    attrs[NSForegroundColorAttributeName] = RGBCOLOR(132, 58, 57);
+    [[UIBarButtonItem appearance] setTitleTextAttributes:attrs forState:UIControlStateNormal];
+}
+
+
+-(void)enter
+{
+    [TeacherHttpManager getStationCourseList:@"096220160600001" resultBlock:^(id result, BOOL success, HttpResponseError *error) {
+        
+    }];
+    RootViewController *rootViewController = [RootViewController shareInstance];
+    UINavigationController *rootNavController=[[UINavigationController alloc]initWithRootViewController:rootViewController];
+    self.window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = rootNavController;
+    [self.window makeKeyAndVisible];
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

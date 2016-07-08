@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DataKit/DataKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonKit/CommonKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Teacher/Teacher.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:DataFoundation/DataFoundation.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CommonFoundation/CommonFoundation.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

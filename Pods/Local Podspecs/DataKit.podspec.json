@@ -1,0 +1,36 @@
+{
+  "name": "DataKit",
+  "version": "1.0.0",
+  "summary": "doit’s DataKit.",
+  "description": "this is doit’s data kit",
+  "homepage": "https://github.com/zl-doit",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "zl-doit": "244696396@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "/Users/doit/Documents/workspace/ios/iEducation/DataKit",
+    "tag": "1.0.0"
+  },
+  "source_files": "DataKit/**/*.{h,m}",
+  "exclude_files": "DataKit/Exclude",
+  "public_header_files": "DataKit/**/*.h",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "DTFoundation": [
+
+    ]
+  }
+}

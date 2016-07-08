@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B67D76E1D2F8376005BF468 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B67D76C1D2F8376005BF468 /* HomeViewController.m */; };
+		6B67D76F1D2F8376005BF468 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B67D76D1D2F8376005BF468 /* HomeViewController.xib */; };
+		6B67D7731D2F83DD005BF468 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B67D7711D2F83DD005BF468 /* CourseViewController.m */; };
+		6B67D7741D2F83DD005BF468 /* CourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B67D7721D2F83DD005BF468 /* CourseViewController.xib */; };
+		6B67D7781D2F83EF005BF468 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B67D7761D2F83EF005BF468 /* MineViewController.m */; };
+		6B67D7791D2F83EF005BF468 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B67D7771D2F83EF005BF468 /* MineViewController.xib */; };
 		6BF9C3E21D0EA65500119192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C3E11D0EA65500119192 /* main.m */; };
 		6BF9C3E51D0EA65500119192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C3E41D0EA65500119192 /* AppDelegate.m */; };
-		6BF9C3E81D0EA65500119192 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C3E71D0EA65500119192 /* FirstViewController.m */; };
-		6BF9C3EB1D0EA65500119192 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C3EA1D0EA65500119192 /* SecondViewController.m */; };
 		6BF9C3EE1D0EA65500119192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF9C3EC1D0EA65500119192 /* Main.storyboard */; };
 		6BF9C3F01D0EA65500119192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF9C3EF1D0EA65500119192 /* Assets.xcassets */; };
 		6BF9C3F31D0EA65500119192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF9C3F11D0EA65500119192 /* LaunchScreen.storyboard */; };
 		6BF9C3FE1D0EA65500119192 /* TeacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C3FD1D0EA65500119192 /* TeacherTests.m */; };
 		6BF9C4091D0EA65600119192 /* TeacherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF9C4081D0EA65600119192 /* TeacherUITests.m */; };
-		6BF9C4201D0EA95C00119192 /* CommonFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9C41E1D0EA95C00119192 /* CommonFoundation.framework */; };
-		6BF9C4211D0EA95C00119192 /* DataFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9C41F1D0EA95C00119192 /* DataFoundation.framework */; };
+		6BFF5AD01D2E4E8A0064B99B /* TeacherHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF5ACF1D2E4E8A0064B99B /* TeacherHttpManager.m */; };
+		6BFF5AF01D2E5A0F0064B99B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF5AE21D2E5A0F0064B99B /* RootViewController.m */; };
+		6BFF5AF11D2E5A0F0064B99B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF5AE31D2E5A0F0064B99B /* RootViewController.xib */; };
+		6BFF5B0E1D2E87DC0064B99B /* TabControllerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF5B0D1D2E87DC0064B99B /* TabControllerBaseViewController.m */; };
 		DDA5E881CFA9ADD736893690 /* libPods-Teacher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB775ED208C084DFCC61A642 /* libPods-Teacher.a */; };
 /* End PBXBuildFile section */
 
@@ -40,14 +46,21 @@
 
 /* Begin PBXFileReference section */
 		2D2358B66527F4B9B1A10940 /* Pods-Teacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teacher.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Teacher/Pods-Teacher.debug.xcconfig"; sourceTree = "<group>"; };
+		6B67D76A1D2F78CA005BF468 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B67D76B1D2F8376005BF468 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6B67D76C1D2F8376005BF468 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6B67D76D1D2F8376005BF468 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6B67D7701D2F83DD005BF468 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		6B67D7711D2F83DD005BF468 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		6B67D7721D2F83DD005BF468 /* CourseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseViewController.xib; sourceTree = "<group>"; };
+		6B67D7751D2F83EF005BF468 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		6B67D7761D2F83EF005BF468 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		6B67D7771D2F83EF005BF468 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		6B67D77A1D2F8650005BF468 /* consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consts.h; sourceTree = "<group>"; };
 		6BF9C3DD1D0EA65500119192 /* Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF9C3E11D0EA65500119192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BF9C3E31D0EA65500119192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BF9C3E41D0EA65500119192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BF9C3E61D0EA65500119192 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		6BF9C3E71D0EA65500119192 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		6BF9C3E91D0EA65500119192 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		6BF9C3EA1D0EA65500119192 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6BF9C3ED1D0EA65500119192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BF9C3EF1D0EA65500119192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF9C3F21D0EA65500119192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +71,13 @@
 		6BF9C4041D0EA65600119192 /* TeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF9C4081D0EA65600119192 /* TeacherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherUITests.m; sourceTree = "<group>"; };
 		6BF9C40A1D0EA65600119192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BF9C41E1D0EA95C00119192 /* CommonFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonFoundation.framework; path = "../CommonFoundation/build/Debug-iphoneos/CommonFoundation.framework"; sourceTree = "<group>"; };
-		6BF9C41F1D0EA95C00119192 /* DataFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataFoundation.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/iEducation-agukurdtftclfbhajwcnstfrsmes/Build/Products/Debug-iphonesimulator/DataFoundation.framework"; sourceTree = "<group>"; };
+		6BFF5ACE1D2E4E8A0064B99B /* TeacherHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherHttpManager.h; sourceTree = "<group>"; };
+		6BFF5ACF1D2E4E8A0064B99B /* TeacherHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherHttpManager.m; sourceTree = "<group>"; };
+		6BFF5AE11D2E5A0F0064B99B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6BFF5AE21D2E5A0F0064B99B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6BFF5AE31D2E5A0F0064B99B /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		6BFF5B0C1D2E87DC0064B99B /* TabControllerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabControllerBaseViewController.h; sourceTree = "<group>"; };
+		6BFF5B0D1D2E87DC0064B99B /* TabControllerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabControllerBaseViewController.m; sourceTree = "<group>"; };
 		C3F81E39CD232C6902AFD055 /* Pods-Teacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teacher.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Teacher/Pods-Teacher.release.xcconfig"; sourceTree = "<group>"; };
 		FB775ED208C084DFCC61A642 /* libPods-Teacher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Teacher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,8 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF9C4201D0EA95C00119192 /* CommonFoundation.framework in Frameworks */,
-				6BF9C4211D0EA95C00119192 /* DataFoundation.framework in Frameworks */,
 				DDA5E881CFA9ADD736893690 /* libPods-Teacher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,8 +120,6 @@
 		321D893790F865E37E4F6F3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BF9C41E1D0EA95C00119192 /* CommonFoundation.framework */,
-				6BF9C41F1D0EA95C00119192 /* DataFoundation.framework */,
 				FB775ED208C084DFCC61A642 /* libPods-Teacher.a */,
 			);
 			name = Frameworks;
@@ -136,12 +150,10 @@
 		6BF9C3DF1D0EA65500119192 /* Teacher */ = {
 			isa = PBXGroup;
 			children = (
+				6BFF5AD11D2E59250064B99B /* Controller */,
+				6BFF5ACD1D2E4E750064B99B /* Net */,
 				6BF9C3E31D0EA65500119192 /* AppDelegate.h */,
 				6BF9C3E41D0EA65500119192 /* AppDelegate.m */,
-				6BF9C3E61D0EA65500119192 /* FirstViewController.h */,
-				6BF9C3E71D0EA65500119192 /* FirstViewController.m */,
-				6BF9C3E91D0EA65500119192 /* SecondViewController.h */,
-				6BF9C3EA1D0EA65500119192 /* SecondViewController.m */,
 				6BF9C3EC1D0EA65500119192 /* Main.storyboard */,
 				6BF9C3EF1D0EA65500119192 /* Assets.xcassets */,
 				6BF9C3F11D0EA65500119192 /* LaunchScreen.storyboard */,
@@ -154,6 +166,8 @@
 		6BF9C3E01D0EA65500119192 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B67D77A1D2F8650005BF468 /* consts.h */,
+				6B67D76A1D2F78CA005BF468 /* PrefixHeader.pch */,
 				6BF9C3E11D0EA65500119192 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -177,6 +191,68 @@
 			path = TeacherUITests;
 			sourceTree = "<group>";
 		};
+		6BFF5ACD1D2E4E750064B99B /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF5ACE1D2E4E8A0064B99B /* TeacherHttpManager.h */,
+				6BFF5ACF1D2E4E8A0064B99B /* TeacherHttpManager.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		6BFF5AD11D2E59250064B99B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF5B0B1D2E87680064B99B /* home */,
+				6BFF5B091D2E87520064B99B /* course */,
+				6BFF5B0A1D2E87520064B99B /* mine */,
+				6BFF5AD21D2E5A0E0064B99B /* root */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BFF5AD21D2E5A0E0064B99B /* root */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF5B0C1D2E87DC0064B99B /* TabControllerBaseViewController.h */,
+				6BFF5B0D1D2E87DC0064B99B /* TabControllerBaseViewController.m */,
+				6BFF5AE11D2E5A0F0064B99B /* RootViewController.h */,
+				6BFF5AE21D2E5A0F0064B99B /* RootViewController.m */,
+				6BFF5AE31D2E5A0F0064B99B /* RootViewController.xib */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		6BFF5B091D2E87520064B99B /* course */ = {
+			isa = PBXGroup;
+			children = (
+				6B67D7701D2F83DD005BF468 /* CourseViewController.h */,
+				6B67D7711D2F83DD005BF468 /* CourseViewController.m */,
+				6B67D7721D2F83DD005BF468 /* CourseViewController.xib */,
+			);
+			path = course;
+			sourceTree = "<group>";
+		};
+		6BFF5B0A1D2E87520064B99B /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				6B67D7751D2F83EF005BF468 /* MineViewController.h */,
+				6B67D7761D2F83EF005BF468 /* MineViewController.m */,
+				6B67D7771D2F83EF005BF468 /* MineViewController.xib */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		6BFF5B0B1D2E87680064B99B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				6B67D76B1D2F8376005BF468 /* HomeViewController.h */,
+				6B67D76C1D2F8376005BF468 /* HomeViewController.m */,
+				6B67D76D1D2F8376005BF468 /* HomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,12 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BF9C40D1D0EA65600119192 /* Build configuration list for PBXNativeTarget "Teacher" */;
 			buildPhases = (
-				3F7238705DD5AC983546AEBD /* 📦 Check Pods Manifest.lock */,
+				3F7238705DD5AC983546AEBD /* [CP] Check Pods Manifest.lock */,
 				6BF9C3D91D0EA65500119192 /* Sources */,
 				6BF9C3DA1D0EA65500119192 /* Frameworks */,
 				6BF9C3DB1D0EA65500119192 /* Resources */,
-				0BEDA7A1BF877E32CB7596FC /* 📦 Embed Pods Frameworks */,
-				B736340A2BD0058C8291A1D4 /* 📦 Copy Pods Resources */,
+				0BEDA7A1BF877E32CB7596FC /* [CP] Embed Pods Frameworks */,
+				B736340A2BD0058C8291A1D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,7 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF9C3F31D0EA65500119192 /* LaunchScreen.storyboard in Resources */,
+				6B67D7791D2F83EF005BF468 /* MineViewController.xib in Resources */,
+				6B67D7741D2F83DD005BF468 /* CourseViewController.xib in Resources */,
 				6BF9C3F01D0EA65500119192 /* Assets.xcassets in Resources */,
+				6B67D76F1D2F8376005BF468 /* HomeViewController.xib in Resources */,
+				6BFF5AF11D2E5A0F0064B99B /* RootViewController.xib in Resources */,
 				6BF9C3EE1D0EA65500119192 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,14 +386,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BEDA7A1BF877E32CB7596FC /* 📦 Embed Pods Frameworks */ = {
+		0BEDA7A1BF877E32CB7596FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,14 +401,14 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Teacher/Pods-Teacher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F7238705DD5AC983546AEBD /* 📦 Check Pods Manifest.lock */ = {
+		3F7238705DD5AC983546AEBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,14 +416,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B736340A2BD0058C8291A1D4 /* 📦 Copy Pods Resources */ = {
+		B736340A2BD0058C8291A1D4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +438,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF9C3EB1D0EA65500119192 /* SecondViewController.m in Sources */,
+				6BFF5AD01D2E4E8A0064B99B /* TeacherHttpManager.m in Sources */,
 				6BF9C3E51D0EA65500119192 /* AppDelegate.m in Sources */,
-				6BF9C3E81D0EA65500119192 /* FirstViewController.m in Sources */,
+				6BFF5B0E1D2E87DC0064B99B /* TabControllerBaseViewController.m in Sources */,
+				6BFF5AF01D2E5A0F0064B99B /* RootViewController.m in Sources */,
+				6B67D7731D2F83DD005BF468 /* CourseViewController.m in Sources */,
 				6BF9C3E21D0EA65500119192 /* main.m in Sources */,
+				6B67D76E1D2F8376005BF468 /* HomeViewController.m in Sources */,
+				6B67D7781D2F83EF005BF468 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +587,21 @@
 			baseConfigurationReference = 2D2358B66527F4B9B1A10940 /* Pods-Teacher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Teacher/PrefixHeader.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Teacher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddsl.iEducation.Teacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -515,10 +610,21 @@
 			baseConfigurationReference = C3F81E39CD232C6902AFD055 /* Pods-Teacher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Teacher/PrefixHeader.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Teacher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ddsl.iEducation.Teacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};

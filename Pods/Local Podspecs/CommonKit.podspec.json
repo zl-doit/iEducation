@@ -1,0 +1,45 @@
+{
+  "name": "CommonKit",
+  "version": "1.0.0",
+  "summary": "doit’s Common function.",
+  "description": "this  doit’s common lib",
+  "homepage": "https://github.com/zl-doit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zl-doit": "244696396@qq.om"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "/Users/doit/Documents/dev/ios/FrameWorkTest/CommonKit",
+    "tag": "1.0.0"
+  },
+  "source_files": "**/*.{h,m}",
+  "exclude_files": "Exclude",
+  "prefix_header_file": "CommonConsts.h",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "HTMLReader": [
+
+    ],
+    "FCModel": [
+
+    ],
+    "CocoaLumberjack": [
+
+    ],
+    "ProtocolBuffers": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "DTFoundation": [
+
+    ]
+  }
+}

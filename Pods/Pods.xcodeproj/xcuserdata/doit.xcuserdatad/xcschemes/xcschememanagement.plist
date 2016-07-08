@@ -14,7 +14,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CocoaHTTPServer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CommonKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DTFoundation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DataKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,12 +54,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CommonFoundation.xcscheme</key>
+		<key>Pods-CommonKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-DataFoundation.xcscheme</key>
+		<key>Pods-DataKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,30 +74,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RNCryptor.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A45D16CA092D9413E8CDEF48AE70D93</key>
+		<key>07CD95EDDA4D14EC126526899A940884</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
+		<key>1A8356BEA0A5841D3D7014234DA6D9F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2FFB9DFDE458F9AC08666A4B2EFC2CD2</key>
+		<key>29A5EC86087C08DC1B5CD3B84F7683A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>30BDD07E0F860BAC06EC606FCE501AB0</key>
+		<key>3563796A78FBD82C2745BD9D07B11E92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D2BBDCFB2D44E50ECA9B58338E64D09</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +107,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C226708080861C37046792BF9D3A68B</key>
+		<key>49B86266530C555F94599C8114D888C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7507A9539784990D3F80F2E1665A0C0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76E38F0FC687BB17DBBFB3309EE7100F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>918428F826D8ABAAA6F6E86DECDBDF6A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,22 +132,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A2B9A2D591F97ECDC50911360582DBF8</key>
+		<key>9B06DF62795D8BF36B01EBB8B4886F96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB5CBE2100141BA50AC2D407F592286A</key>
+		<key>DEAF8A4378F68A304E37410D2CC3E4FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8EE6E444E93E358D850374D4AEAE64A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E94BA526D0C2126EADC1E9E5FD7B63AB</key>
+		<key>F01AD95E46744655DC3AFFAAAB68D7B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
